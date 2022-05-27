@@ -15,6 +15,21 @@ const routes = [
     component: () => import('../views/PlatillosView.vue')
   },
   {
+    path: '/platillos/agregar',
+    name: 'platillos-agregar',
+    component: () => import('../views/AgregarPlatilloView.vue')
+  },
+  {
+    path: '/platillos/modificar',
+    name: 'platillos-modificar',
+    component: () => import('../views/ModificarPlatilloView.vue')
+  },
+  {
+    path: '/platillos/eliminar',
+    name: 'platillos-eliminar',
+    component: () => import('../views/EliminarPlatilloView.vue')
+  },
+  {
     path: '/administrador',
     name: 'administrador',
     component: () => import('../views/AdminView.vue')

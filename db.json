@@ -1,44 +1,62 @@
 {
-    "platillos": [
-        {
-            "id": 1,
-            "titulo": "Enchiladas suizas",
-            "lugar": "México",
-            "tipo": "Plato fuerte",
-            "descripcion": "Platillo elaborado con tortillas de maíz rellenas con pollo, bañadas con salsa verde y gratinadas con queso manchego. La salsa verde se prepara con algo de ajonjolí y crema; tradicionalmente se sirven tres con abundante salsa en un plato metálico o cualquier plato hondo para gratinar.",
-            "precio": 125,
-            "puntaje": 4.7,
-            "imagen": "https://i.imgur.com/3QpFbdG.png"
-        },
-        {
-            "id": 2,
-            "titulo": "Enchiladas rojas",
-            "lugar": "México",
-            "tipo": "Plato fuerte",
-            "descripcion": "Se les retira la parte delgada a las tortillas, se untan con una salsa de chile guajillo, se fríen y rellenan con un picadillo de carne de cerdo que puede tener papas, chícharos, ejotes, zanahorias, pasitas, almendras y aceitunas; se adornan con queso rallado, rabanitos y lechuga; es un antojito popular fácil de encontrar en fiestas y ferias regionales acompañadas de tuba almendrada.",
-            "precio": 125,
-            "puntaje": 4.7,
-            "imagen": "https://imgur.com/UZPLiws.png"
-        },
-        {
-            "id": 3,
-            "titulo": "Lasaña",
-            "lugar": "Italia",
-            "tipo": "Plato fuerte",
-            "descripcion": "Lorem",
-            "precio": 125,
-            "puntaje": 4.7,
-            "imagen": "https://imgur.com/yCEGb7z.png"
-        },
-        {
-            "id": 4,
-            "titulo": "Helado napolitano",
-            "lugar": "Estados Unidos",
-            "tipo": "Postre",
-            "descripcion": "Lorem",
-            "precio": 125,
-            "puntaje": 4.7,
-            "imagen": "https://imgur.com/CjJwuvv.png"
-        }
-    ]
+  "platillos": [
+    {
+      "id": 1,
+      "titulo": "Enchiladas suizas",
+      "lugar": "México",
+      "tipo": "Plato fuerte",
+      "descripcion": "Platillo elaborado con tortillas de maíz rellenas con pollo, bañadas con salsa verde y gratinadas con queso manchego. La salsa verde se prepara con algo de ajonjolí y crema; tradicionalmente se sirven tres con abundante salsa en un plato metálico o cualquier plato hondo para gratinar.",
+      "precio": 125,
+      "puntaje": 4.7,
+      "imagen": "https://i.imgur.com/3QpFbdG.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Enchiladas rojas",
+      "lugar": "México",
+      "tipo": "Plato fuerte",
+      "descripcion": "Se les retira la parte delgada a las tortillas, se untan con una salsa de chile guajillo, se fríen y rellenan con un picadillo de carne de cerdo que puede tener papas, chícharos, ejotes, zanahorias, pasitas, almendras y aceitunas; se adornan con queso rallado, rabanitos y lechuga; es un antojito popular fácil de encontrar en fiestas y ferias regionales acompañadas de tuba almendrada.",
+      "precio": 125,
+      "puntaje": 4.7,
+      "imagen": "https://imgur.com/UZPLiws.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Lasaña",
+      "lugar": "Italia",
+      "tipo": "Plato fuerte",
+      "descripcion": "Lorem",
+      "precio": 125,
+      "puntaje": 4.7,
+      "imagen": "https://imgur.com/yCEGb7z.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Helado napolitano",
+      "lugar": "Estados Unidos",
+      "tipo": "Postre",
+      "descripcion": "Lorem",
+      "precio": 125,
+      "puntaje": 4.7,
+      "imagen": "https://imgur.com/CjJwuvv.png"
+    },
+    {
+      "titulo": "Ensalada de pollo",
+      "tipo": "Sopas y ensaladas",
+      "lugar": "Estados Unidos",
+      "precio": 200,
+      "descripcion": "Un platillo elaborado con lechuga, jitomate, cebolla, apio y trozos de pollo acompañado con un aderezo ranch. ",
+      "id": 5
+    },
+    {
+      "titulo": "asdasd",
+      "tipo": "Aperitivos",
+      "lugar": "asdassad",
+      "precio": 123,
+      "descripcion": "asdasdasdasd",
+      "imagen": null,
+      "puntaje": null,
+      "id": 6
+    }
+  ]
 }

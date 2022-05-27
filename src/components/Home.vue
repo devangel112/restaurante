@@ -7,7 +7,7 @@
             <v-sheet :color="color" height="100%" tile>
               <v-row class="fill-height" align="center" justify="center">
                 <div class="text-h2">
-                  Slide {{ i + 1 }}
+                  Imagen {{ i + 1 }}
                 </div>
               </v-row>
             </v-sheet>

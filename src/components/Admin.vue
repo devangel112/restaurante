@@ -52,6 +52,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+* {
+    transition: all 0.5s ease-in-out;
+}
 .acciones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -62,12 +65,9 @@ export default {
     max-width: 1000px;
     gap: 40px;
     margin: auto;
-    transition: all 0.5s ease-in;
-
 
     :hover {
         transform: scale(1.05);
-        transition: all 0.5s ease-in;
     }
 
     .tarjeta {
@@ -84,7 +84,6 @@ export default {
 
         :hover {
             transform: scale(1);
-            transition: all 0.5s ease-in;
         }
 
         .icono {
