@@ -37,9 +37,12 @@
                     <v-btn class="mr-4" @click="submit">
                         Agregar
                     </v-btn>
-                    <v-btn @click="clear">
+                    <v-btn class="mr-4" @click="clear">
                         Limpiar
                     </v-btn>
+                    <router-link to="/administrador" tag="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default">
+                        Cancelar
+                    </router-link>
                 </div>
             </form>
         </div>
@@ -72,8 +75,8 @@ export default {
         descripcion: "",
         precio: null,
         puntaje: null,
-        esCorrecto: false,
         imagen: null,
+        esCorrecto: false,
         tiposPlatillo: [
             'Pequeñas botanas',
             'Aperitivos',
@@ -118,7 +121,6 @@ export default {
             return errors
         },
     },
-
     methods: {
         submit() {
             this.$v.$touch()
@@ -184,7 +186,7 @@ export default {
 
 .formulario {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     width: 75%;
 
     .campos {

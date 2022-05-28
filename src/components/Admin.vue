@@ -28,21 +28,21 @@ export default {
                     id: 1,
                     titulo: "Agregar platillo",
                     texto: "Agrega un nuevo platillo a la lista de platillos",
-                    url: "/platillos/agregar",
+                    url: "/administrador/platillos/agregar",
                     icono: "plus-circle"
                 },
                 {
                     id: 2,
                     titulo: "Modificar platillo",
                     texto: "Modifica un platillo existente de la lista de platillos",
-                    url: "/platillos/modificar",
+                    url: "/administrador/platillos/modificar",
                     icono: "pencil"
                 },
                 {
                     id: 3,
                     titulo: "Eliminar platillo",
                     texto: "Elimina un platillo de la lista de platillos",
-                    url: "/platillos/eliminar",
+                    url: "/administrador/platillos/eliminar",
                     icono: "delete"
                 }
             ],

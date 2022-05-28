@@ -15,30 +15,31 @@ const routes = [
     component: () => import('../views/PlatillosView.vue')
   },
   {
-    path: '/platillos/agregar',
-    name: 'platillos-agregar',
-    component: () => import('../views/AgregarPlatilloView.vue')
-  },
-  {
-    path: '/platillos/modificar',
-    name: 'platillos-modificar',
-    component: () => import('../views/ModificarPlatilloView.vue')
-  },
-  {
-    path: '/platillos/eliminar',
-    name: 'platillos-eliminar',
-    component: () => import('../views/EliminarPlatilloView.vue')
-  },
-  {
     path: '/administrador',
     name: 'administrador',
     component: () => import('../views/AdminView.vue')
-  }
+  },
+  {
+    path: '/administrador/platillos/agregar',
+    name: 'administrador-platillos-agregar',
+    component: () => import('../views/AgregarPlatilloView.vue')
+  },
+  {
+    path: '/administrador/platillos/modificar',
+    name: 'administrador-platillos-modificar',
+    component: () => import('../views/ModificarPlatilloView.vue')
+  },
+  {
+    path: '/administrador/platillos/eliminar',
+    name: 'administrador-platillos-eliminar',
+    component: () => import('../views/EliminarPlatilloView.vue')
+  },
+  
 ]
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  /* base: process.env.BASE_URL, */
   routes
 })
 

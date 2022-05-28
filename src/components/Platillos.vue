@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <h1 class="text-uppercase">Platillos</h1>
-        <div class="platillos">
+        <div class="platillos" v-if="platillos != null">
             <v-card v-for="platillo in platillos" :key="platillo.id" class="mx-auto my-12" max-width="374">
                 <v-img height="250" :src="platillo.imagen"></v-img>
 
@@ -23,6 +23,11 @@
                     <div>{{ platillo.descripcion }}</div>
                 </v-card-text>
             </v-card>
+        </div>
+        <div v-else>
+            <h2 class="text-center">
+                No hay platillos disponibles, vuelve mas tarde.
+            </h2>
         </div>
     </v-container>
 </template>

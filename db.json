@@ -24,39 +24,11 @@
       "id": 3,
       "titulo": "Lasaña",
       "lugar": "Italia",
-      "tipo": "Plato fuerte",
-      "descripcion": "Lorem",
-      "precio": 125,
+      "tipo": "Platos principales",
+      "descripcion": "Se trata de un plato que tiene pasta en láminas intercaladas con distintos ingredientes (carnes, verduras, pescados) y que se elabora con bechamel y abundante queso rallado para gratinarla al horno.",
+      "precio": "200",
       "puntaje": 4.7,
       "imagen": "https://imgur.com/yCEGb7z.png"
-    },
-    {
-      "id": 4,
-      "titulo": "Helado napolitano",
-      "lugar": "Estados Unidos",
-      "tipo": "Postre",
-      "descripcion": "Lorem",
-      "precio": 125,
-      "puntaje": 4.7,
-      "imagen": "https://imgur.com/CjJwuvv.png"
-    },
-    {
-      "titulo": "Ensalada de pollo",
-      "tipo": "Sopas y ensaladas",
-      "lugar": "Estados Unidos",
-      "precio": 200,
-      "descripcion": "Un platillo elaborado con lechuga, jitomate, cebolla, apio y trozos de pollo acompañado con un aderezo ranch. ",
-      "id": 5
-    },
-    {
-      "titulo": "asdasd",
-      "tipo": "Aperitivos",
-      "lugar": "asdassad",
-      "precio": 123,
-      "descripcion": "asdasdasdasd",
-      "imagen": null,
-      "puntaje": null,
-      "id": 6
     }
   ]
 }
