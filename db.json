@@ -4,9 +4,9 @@
       "id": 1,
       "titulo": "Enchiladas suizas",
       "lugar": "México",
-      "tipo": "Plato fuerte",
+      "tipo": "Platos principales",
       "descripcion": "Platillo elaborado con tortillas de maíz rellenas con pollo, bañadas con salsa verde y gratinadas con queso manchego. La salsa verde se prepara con algo de ajonjolí y crema; tradicionalmente se sirven tres con abundante salsa en un plato metálico o cualquier plato hondo para gratinar.",
-      "precio": 125,
+      "precio": "2000",
       "puntaje": 4.7,
       "imagen": "https://i.imgur.com/3QpFbdG.png"
     },
